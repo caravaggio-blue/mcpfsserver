@@ -1,0 +1,40 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+venv/
+
+# Ignore other unnecessary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+*.pyo
+*.pdb
+*.egg-info/
+*.eggs/
+*.tox/
+*.nox/
+*.coverage
+*.cache/
+*.pytest_cache/
+*.mypy_cache/
+*.mypy_cache/
+*.pytest_cache/
+*.mypy_cache/
+*.tox/
+*.nox/
+*.nox/
+*.pytest_cache/
+```
+

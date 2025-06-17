@@ -1,0 +1,51 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test coverage and builds
+htmlcov/
+.tox/
+coverage.*
+.cache
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Docker
+*.tar
+*.pid
+*.sock
+
+# Environment variable files
+.env
+.env.*
+
+# MyPy and Pylint
+.mypy_cache/
+.pylint.d/
+
+# Optional: docker-compose override (dev-specific)
+docker-compose.override.yml
