@@ -1,3 +1,6 @@
+This is a continuation of an ongoing development session we are having.  The initial prompts are below.
+
+
 # Initial Prompt
 I want to create a local MCP (Model Context Protocol) server that allows an LLM to perform tasks on the local filesystem. The tasks should include:
 
@@ -36,8 +39,6 @@ Include:
 - Safety tests to ensure paths and inputs are sanitized
 - Mock responses for bash output (stdout, stderr, exit codes)
 
-Treat this as a tutorial.  I am not familar with Python and Flask and I want to learn.  So all development will be done in small steps where we will develop in layers, building slowly upon an initial skeleton based on my feedback and question at each stage.  Also keep the README.md up to date as a diary of our work and decisions.  You can maintain the README.md, I will write the code based on you suggestions.
+Treat this as a tutorial.  I am not familar with Python and Flask and I want to learn.  So all development will be done in small steps where we will develop in layers, building slowly upon an initial skeleton based on my feedback and question at each stage.  Also keep the README.md up to date as a diary of our work and decisions.  You can maintain the README.md, I will write the code based on your suggestions.  You will post code in the chat, you will not write any code to files (except README.md)
 
-Create a checkpoint here
-
-# Prompt
+Read the project structure and files to see how far we have gotten.  We have succesffully tested the current functionality of server.py running in docker.
