@@ -11,9 +11,10 @@ def client():
 
 def test_extract_zip(client, mocker):
     # Mock the file system and subprocess
-    mocker.patch('os.path.isfile', return_value=True)
+    mocker.patch('os.path.isfile', side_effect=lambda x: x == '/app/data/test.zip')
     mocker.patch('os.makedirs')
-    mocker.patch('zipfile.ZipFile.extractall')
+    mock_zipfile = mocker.patch('zipfile.ZipFile')
+    mock_zipfile.return_value.__enter__.return_value.extractall = lambda x: None
 
     response = client.post('/extract_zip', json={
         'zip_path': 'test.zip',
